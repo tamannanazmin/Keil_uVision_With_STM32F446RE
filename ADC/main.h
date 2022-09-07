@@ -1,0 +1,1 @@
+extern uint32_t sensor_value;
