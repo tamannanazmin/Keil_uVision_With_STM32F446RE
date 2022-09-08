@@ -28,28 +28,13 @@ Project File Date:  09/07/2022
 *** Using Compiler 'V6.18', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Rebuild target 'Target 1'
 assembling startup_stm32f446xx.s...
-uart.c(39): warning: // comments are not allowed in this language [-Wcomment]
-        //confiure uart gpio pin
-        ^
-1 warning generated.
-compiling uart.c...
-compiling adc.c...
 compiling system_stm32f4xx.c...
-main.c(6): warning: In file included from...
-./main.h(1): warning: no newline at end of file [-Wnewline-eof]
-extern uint32_t sensor_value;
-                             ^
-main.c(16): warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'int *' [-Wint-conversion]
-                UART_Write_String((int)sensor_value);
-                                  ^~~~~~~~~~~~~~~~~
-./uart.h(8): note: passing argument to parameter 'p' here
-void UART_Write_String(int *p);
-                            ^
-2 warnings generated.
 compiling main.c...
+compiling adc.c...
+compiling uart.c...
 linking...
-Program Size: Code=888 RO-data=468 RW-data=0 ZI-data=1640  
-".\Objects\adc.axf" - 0 Error(s), 3 Warning(s).
+Program Size: Code=1056 RO-data=484 RW-data=20 ZI-data=1640  
+".\Objects\adc.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
